@@ -1,0 +1,31 @@
+{
+  "groups": [
+    {
+      "name": "rpc",
+      "type": "com.mini.rpc.core.RpcProperties",
+      "sourceType": "com.mini.rpc.core.RpcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rpc.registry-addr",
+      "type": "java.lang.String",
+      "description": "注册中心地址",
+      "sourceType": "com.mini.rpc.core.RpcProperties"
+    },
+    {
+      "name": "rpc.registry-type",
+      "type": "java.lang.String",
+      "description": "注册中心类型",
+      "sourceType": "com.mini.rpc.core.RpcProperties"
+    },
+    {
+      "name": "rpc.service-port",
+      "type": "java.lang.Integer",
+      "description": "服务端口",
+      "sourceType": "com.mini.rpc.core.RpcProperties",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}
